@@ -1,9 +1,0 @@
-{
-  "auth0_audience": "portal.dev.helloglobo.com",
-  "auth0_client_id": "tPQL0PgSEQPF8T4CgYVRV8K5ALnuJ9Xi",
-  "auth0_domain": "auth.staging.globohq.cloud",
-  "api_hostname": "https://portal.dev.helloglobo.com/",
-  "aes_iv": "24432646294A404E",
-  "aes_key": "566B5970337336763979244226452948",
-  "env": "staging"
-}
