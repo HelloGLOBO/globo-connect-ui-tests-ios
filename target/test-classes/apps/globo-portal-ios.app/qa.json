@@ -1,0 +1,9 @@
+{
+  "auth0_audience": "globoqa.com",
+  "auth0_client_id": "qbRoEqYOExtgN9SG5EGPEtEngKPQykhb",
+  "auth0_domain": "auth.qa.globohq.cloud",
+  "api_hostname": "https://globoqa.com",
+  "aes_iv": "7639792442264529",
+  "aes_key": "645267556B58703273357638792F423F",
+  "env": "qa"
+}

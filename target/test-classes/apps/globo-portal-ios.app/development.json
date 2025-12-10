@@ -1,0 +1,9 @@
+{
+  "auth0_audience": "https://rperalta.ngrok.io:3000/",
+  "auth0_client_id": "vgEt31ccY9qx4b95bwHuh2eg8KRf3rog",
+  "auth0_domain": "dev-idw2u3ja00z2irxm.us.auth0.com",
+  "api_hostname": "https://rperalta.ngrok.io",
+  "aes_iv": "6150645367566B59",
+  "aes_key": "3777217A25432A462D4A614E64526755",
+  "env": "development"
+}

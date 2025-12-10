@@ -1,0 +1,9 @@
+{
+  "auth0_audience": "https://globouat.com/",
+  "auth0_client_id": "FAcclgcdKwZHQ93XtsENA5EfntLP6mP2",
+  "auth0_domain": "auth.uat.globohq.cloud",
+  "api_hostname": "https://globouat.com",
+  "aes_iv": "2A472D4B61506453",
+  "aes_key": "4A614E645266556A586E327235753878",
+  "env": "uat"
+}
