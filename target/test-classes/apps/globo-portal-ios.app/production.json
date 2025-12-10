@@ -1,9 +1,0 @@
-{
-  "auth0_audience": "https://globohq.com/",
-  "auth0_client_id": "MbTPWNDZFPVEhX8BOjwR43M1FXEnGvky",
-  "auth0_domain": "auth.globohq.cloud",
-  "api_hostname": "https://globohq.com",
-  "aes_iv": "462D4A614E645267",
-  "aes_key": "7133743677397A24432646294A404E63",
-  "env": "production"
-}
