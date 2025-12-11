@@ -1,0 +1,28 @@
+{
+    "name": "appium-playwright-framework",
+    "version": "1.0.0",
+    "description": "Appium + Playwright testing framework",
+    "main": "index.js",
+    "scripts": {
+        "test": "playwright test",
+        "test:headed": "playwright test --headed",
+        "test:debug": "playwright test --debug",
+        "test:ui": "playwright test --ui"
+    },
+    "keywords": [
+        "appium",
+        "playwright",
+        "testing",
+        "automation"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.48.2",
+        "appium": "^2.11.5",
+        "webdriverio": "^9.2.11"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5"
+    }
+}
