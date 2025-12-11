@@ -19,7 +19,11 @@
     "license": "ISC",
     "devDependencies": {
         "@playwright/test": "^1.48.2",
+        "@types/node": "^22.10.2",
+        "@wdio/types": "^9.2.11",
         "appium": "^2.11.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2",
         "webdriverio": "^9.2.11"
     },
     "dependencies": {

@@ -1,7 +1,13 @@
-const BaseAppPage = require("./BaseAppPage");
+import { Browser } from "webdriverio";
+import BaseAppPage from "./BaseAppPage";
 
 class LoginAppPage extends BaseAppPage {
-    constructor(driver) {
+    private loginInitButton: string;
+    private emailInput: string;
+    private passwordInput: string;
+    private continueButton: string;
+
+    constructor(driver: Browser) {
         super(driver);
         this.loginInitButton = "~Login";
         this.emailInput = "~Email address";
@@ -9,27 +15,27 @@ class LoginAppPage extends BaseAppPage {
         this.continueButton = "~Continue";
     }
 
-    async clickInitialLogin() {
+    async clickInitialLogin(): Promise<void> {
         await this.click(this.loginInitButton);
     }
 
-    async setupContext() {
+    async setupContext(): Promise<void> {
         await this.switchToContext(0);
     }
 
-    async enterEmail(email) {
+    async enterEmail(email: string): Promise<void> {
         await this.writeText(this.emailInput, email);
     }
 
-    async enterPassword(password) {
+    async enterPassword(password: string): Promise<void> {
         await this.writeText(this.passwordInput, password);
     }
 
-    async clickContinue() {
+    async clickContinue(): Promise<void> {
         await this.click(this.continueButton);
     }
 
-    async performLogin(email, password) {
+    async performLogin(email: string, password: string): Promise<void> {
         await this.clickInitialLogin();
         // await this.setupContext();
         await this.enterEmail(email);
@@ -39,4 +45,4 @@ class LoginAppPage extends BaseAppPage {
     }
 }
 
-module.exports = LoginAppPage;
+export default LoginAppPage;

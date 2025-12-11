@@ -1,21 +1,22 @@
+import { test } from "@playwright/test";
+import { Browser } from "webdriverio";
 import { userData, dashboards } from "../data/testData";
-const { test } = require("@playwright/test");
-const AppiumSetup = require("../helpers/AppiumSetup");
-const LoginPage = require("../pages/web/LoginPage");
-const LinguistDashboardPage = require("../pages/web/LinguistDashboardPage");
-const LoginAppPage = require("../pages/app/LoginAppPage");
-const CompanyDashboardPage = require("../pages/app/CompanyDashboardPage");
-const IntakePage = require("../pages/app/IntakePage");
-const VideoCallPage = require("../pages/app/VideoCallPage");
+import AppiumSetup from "../helpers/AppiumSetup";
+import LoginPage from "../pages/web/LoginPage";
+import LinguistDashboardPage from "../pages/web/LinguistDashboardPage";
+import LoginAppPage from "../pages/app/LoginAppPage";
+import CompanyDashboardPage from "../pages/app/CompanyDashboardPage";
+import IntakePage from "../pages/app/IntakePage";
+import VideoCallPage from "../pages/app/VideoCallPage";
 
 test.describe("Login Tests", () => {
-    let iosDriver;
+    let iosDriver: Browser;
 
     test.beforeAll(async () => {
         iosDriver = await AppiumSetup.setupIOSDriver();
     });
 
-    test("Initiate a video call from app", async ({ page, context }) => {
+    test("Initiate a video call from app", async ({ page }) => {
         const loginPage = new LoginPage(page);
         const dashboardPage = new LinguistDashboardPage(page);
         await loginPage.navigateTo("/");

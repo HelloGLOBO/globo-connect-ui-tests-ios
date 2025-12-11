@@ -1,12 +1,20 @@
-const { remote } = require("webdriverio");
-const path = require("path");
+import { remote, Browser } from "webdriverio";
+import * as path from "path";
+
+interface IOSCapabilities {
+    platformName: string;
+    "appium:automationName": string;
+    "appium:app": string;
+    "appium:deviceName": string;
+    "appium:use_prebuilt_wda": boolean;
+}
 
 class AppiumSetup {
-    static async setupIOSDriver() {
+    static async setupIOSDriver(): Promise<Browser> {
         const projectPath = process.cwd();
         const appPath = path.join(projectPath, "globo-portal-ios.app");
 
-        const capabilities = {
+        const capabilities: IOSCapabilities = {
             platformName: "iOS",
             "appium:automationName": "XCUITest",
             "appium:app": appPath,
@@ -32,17 +40,21 @@ class AppiumSetup {
 
     /**
      * Quit iOS driver
-     * @param {object} driver - WebdriverIO driver instance
+     * @param driver - WebdriverIO driver instance
      */
-    static async quitIOSDriver(driver) {
+    static async quitIOSDriver(driver: Browser | null): Promise<void> {
         if (driver) {
             try {
                 await driver.deleteSession();
             } catch (error) {
-                console.error("Error quitting iOS driver:", error.message);
+                if (error instanceof Error) {
+                    console.error("Error quitting iOS driver:", error.message);
+                } else {
+                    console.error("Error quitting iOS driver:", error);
+                }
             }
         }
     }
 }
 
-module.exports = AppiumSetup;
+export default AppiumSetup;

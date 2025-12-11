@@ -1,7 +1,12 @@
-const BaseWebPage = require("./BaseWebPage");
+import { Page, Locator } from "@playwright/test";
+import BaseWebPage from "./BaseWebPage";
 
 class LinguistDashboardPage extends BaseWebPage {
-    constructor(page) {
+    private statusSwitch: Locator;
+    private confirmModalButton: Locator;
+    private incomingCallPopUpConfirmButton: Locator;
+
+    constructor(page: Page) {
         super(page);
         this.statusSwitch = page.locator(
             ".toggle-switch.medium-switch.hint--top"
@@ -12,17 +17,17 @@ class LinguistDashboardPage extends BaseWebPage {
         );
     }
 
-    async toggleStatus() {
+    async toggleStatus(): Promise<void> {
         await this.click(this.statusSwitch);
         // await expect(this.confirmModalButton).toBeVisible();
         await this.click(this.confirmModalButton);
     }
 
-    async answerCall() {
+    async answerCall(): Promise<void> {
         await this.click(this.incomingCallPopUpConfirmButton);
     }
 
-    async givenSetAvailability(check) {
+    async givenSetAvailability(check: string): Promise<void> {
         const isChecked = await this.statusSwitch.getAttribute("aria-checked");
         if (isChecked !== check) {
             await this.toggleStatus();
@@ -30,4 +35,4 @@ class LinguistDashboardPage extends BaseWebPage {
     }
 }
 
-module.exports = LinguistDashboardPage;
+export default LinguistDashboardPage;
