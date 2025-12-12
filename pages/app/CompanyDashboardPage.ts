@@ -1,5 +1,6 @@
 import { Browser } from "webdriverio";
 import BaseAppPage from "./BaseAppPage";
+import { companyDashboardPageLocators } from "../../locators/app/CompanyDashboardPageLocators";
 
 class CompanyDashboardPage extends BaseAppPage {
     private interpreterLabel: string;
@@ -7,8 +8,8 @@ class CompanyDashboardPage extends BaseAppPage {
 
     constructor(driver: Browser) {
         super(driver);
-        this.interpreterLabel = "~  Interpreter";
-        this.lineLabel = "//XCUIElementTypeTable/XCUIElementTypeCell[5]";
+        this.interpreterLabel = companyDashboardPageLocators.interpreterLabel;
+        this.lineLabel = companyDashboardPageLocators.lineLabel;
     }
 
     async selectInterpreterType(): Promise<void> {

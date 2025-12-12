@@ -1,5 +1,6 @@
 import { Page, Locator } from "@playwright/test";
 import BaseWebPage from "./BaseWebPage";
+import { linguistDashboardPageLocators } from "../../locators/web/LinguistDashboardPageLocators";
 
 class LinguistDashboardPage extends BaseWebPage {
     private statusSwitch: Locator;
@@ -9,11 +10,13 @@ class LinguistDashboardPage extends BaseWebPage {
     constructor(page: Page) {
         super(page);
         this.statusSwitch = page.locator(
-            ".toggle-switch.medium-switch.hint--top"
+            linguistDashboardPageLocators.statusSwitch
         );
-        this.confirmModalButton = page.locator('button:has-text("Confirm")');
+        this.confirmModalButton = page.locator(
+            linguistDashboardPageLocators.confirmModalButton
+        );
         this.incomingCallPopUpConfirmButton = page.locator(
-            "[class*=swal-button--confirm]"
+            linguistDashboardPageLocators.incomingCallPopUpConfirmButton
         );
     }
 

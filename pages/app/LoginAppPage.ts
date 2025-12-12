@@ -1,5 +1,6 @@
 import { Browser } from "webdriverio";
 import BaseAppPage from "./BaseAppPage";
+import { loginAppPageLocators } from "../../locators/app/LoginAppPageLocators";
 
 class LoginAppPage extends BaseAppPage {
     private loginInitButton: string;
@@ -9,10 +10,10 @@ class LoginAppPage extends BaseAppPage {
 
     constructor(driver: Browser) {
         super(driver);
-        this.loginInitButton = "~Login";
-        this.emailInput = "~Email address";
-        this.passwordInput = "~Password";
-        this.continueButton = "~Continue";
+        this.loginInitButton = loginAppPageLocators.loginInitButton;
+        this.emailInput = loginAppPageLocators.emailInput;
+        this.passwordInput = loginAppPageLocators.passwordInput;
+        this.continueButton = loginAppPageLocators.continueButton;
     }
 
     async clickInitialLogin(): Promise<void> {

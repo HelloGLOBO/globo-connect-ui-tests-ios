@@ -1,5 +1,6 @@
 import { Browser } from "webdriverio";
 import BaseAppPage from "./BaseAppPage";
+import { intakePageLocators } from "../../locators/app/IntakePageLocators";
 
 class IntakePage extends BaseAppPage {
     private intakeInput: string;
@@ -8,10 +9,9 @@ class IntakePage extends BaseAppPage {
 
     constructor(driver: Browser) {
         super(driver);
-        this.intakeInput = "//XCUIElementTypeTextField";
-        this.nextButton = '//XCUIElementTypeStaticText[@name="NEXT"]';
-        this.startCallButton =
-            '//XCUIElementTypeStaticText[@name="START CALL"]';
+        this.intakeInput = intakePageLocators.intakeInput;
+        this.nextButton = intakePageLocators.nextButton;
+        this.startCallButton = intakePageLocators.startCallButton;
     }
 
     async enterIntakeData(data: string): Promise<void> {

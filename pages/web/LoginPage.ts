@@ -1,5 +1,6 @@
 import { Page, Locator } from "@playwright/test";
 import BaseWebPage from "./BaseWebPage";
+import { loginPageLocators } from "../../locators/web/LoginPageLocators";
 
 class LoginPage extends BaseWebPage {
     private usernameInput: Locator;
@@ -8,9 +9,9 @@ class LoginPage extends BaseWebPage {
 
     constructor(page: Page) {
         super(page);
-        this.usernameInput = page.locator("#username");
-        this.passwordInput = page.locator("#password");
-        this.actionButton = page.locator('[name="action"]');
+        this.usernameInput = page.locator(loginPageLocators.usernameInput);
+        this.passwordInput = page.locator(loginPageLocators.passwordInput);
+        this.actionButton = page.locator(loginPageLocators.actionButton);
     }
 
     async enterUsername(username: string): Promise<void> {

@@ -1,5 +1,6 @@
 import { Browser } from "webdriverio";
 import BaseAppPage from "./BaseAppPage";
+import { videoCallPageLocators } from "../../locators/app/VideoCallPageLocators";
 
 class VideoCallPage extends BaseAppPage {
     private startCallButton: string;
@@ -7,9 +8,8 @@ class VideoCallPage extends BaseAppPage {
 
     constructor(driver: Browser) {
         super(driver);
-        this.startCallButton =
-            '//XCUIElementTypeStaticText[@name="START CALL"]';
-        this.endCallButton = "ic_end_call_new";
+        this.startCallButton = videoCallPageLocators.startCallButton;
+        this.endCallButton = videoCallPageLocators.endCallButton;
     }
 
     async clickStartCall(): Promise<void> {
