@@ -8,6 +8,7 @@ import LoginAppPage from "../pages/app/LoginAppPage";
 import CompanyDashboardPage from "../pages/app/CompanyDashboardPage";
 import IntakePage from "../pages/app/IntakePage";
 import VideoCallPage from "../pages/app/VideoCallPage";
+import FeedbackPage from "../pages/app/FeedbackPage";
 
 test.describe("Login Tests", () => {
     let iosDriver: Browser;
@@ -32,6 +33,7 @@ test.describe("Login Tests", () => {
         const companyDashboardPage = new CompanyDashboardPage(iosDriver);
         const intakePage = new IntakePage(iosDriver);
         const videoCallPage = new VideoCallPage(iosDriver);
+        const feedbackPage = new FeedbackPage(iosDriver);
 
         await appLoginPage.performLogin(
             userData.USER.email,
@@ -47,6 +49,9 @@ test.describe("Login Tests", () => {
 
         await dashboardPage.answerCall();
         await page.waitForTimeout(5000);
+        await videoCallPage.clickEndCall();
+        await videoCallPage.leaveCall();
+        await feedbackPage.clickNewCall();
     });
 
     test.afterAll(async () => {

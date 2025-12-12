@@ -11,7 +11,6 @@ class BaseAppPage {
 
     async click(selector: string): Promise<void> {
         const element = await this.driver.$(selector);
-        await element.waitForDisplayed({ timeout: this.timeout });
         await element.click();
     }
 
