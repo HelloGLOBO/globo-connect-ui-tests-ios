@@ -38,10 +38,6 @@ class AppiumSetup {
         }
     }
 
-    /**
-     * Quit iOS driver
-     * @param driver - WebdriverIO driver instance
-     */
     static async quitIOSDriver(driver: Browser | null): Promise<void> {
         if (driver) {
             try {
