@@ -9,9 +9,23 @@ class BaseAppPage {
         this.timeout = 10000;
     }
 
-    async click(selector: string): Promise<void> {
-        const element = await this.driver.$(selector);
-        await element.click();
+    async click(selector: string, customTimeout?: number): Promise<void> {
+        const timeout = customTimeout || this.timeout;
+        console.log(`Looking for element with selector: ${selector}`);
+        console.log(`Timeout: ${timeout}ms`);
+        try {
+            const element = await this.driver.$(selector);
+            await element.waitForDisplayed({
+                timeout: timeout,
+                timeoutMsg: `Element not found after ${timeout}ms: ${selector}`,
+            });
+            console.log(`Element found, clicking...`);
+            await element.click();
+            console.log(`Element clicked successfully`);
+        } catch (error) {
+            console.error(`Error clicking element ${selector}:`, error);
+            throw error;
+        }
     }
 
     async writeText(selector: string, text: string): Promise<void> {
