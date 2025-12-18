@@ -35,7 +35,7 @@ class VideoCallPage extends BaseAppPage {
         const element = await this.driver.$(this.endCallButton);
         const isDisplayed = await element.waitForDisplayed({
             timeout: 15000,
-            timeoutMsg: `End call button not displayed after 15s`
+            timeoutMsg: `End call button not displayed after 15s`,
         });
         console.log(`End call button displayed: ${isDisplayed}`);
         expect(isDisplayed).toBeTruthy();
@@ -49,13 +49,12 @@ class VideoCallPage extends BaseAppPage {
             const element = await this.driver.$(this.endScheduledCallButton);
             const isDisplayed = await element.waitForDisplayed({
                 timeout: 20000,
-                timeoutMsg: `End scheduled call button not displayed after 20s`
+                timeoutMsg: `End scheduled call button not displayed after 20s`,
             });
             console.log(`End scheduled call button displayed: ${isDisplayed}`);
             expect(isDisplayed).toBeTruthy();
         } catch (error) {
             console.error("Error verifying scheduled call:", error);
-            // Log current context to help debug
             const contexts = await this.driver.getContexts();
             console.log("Available contexts:", contexts);
             throw error;

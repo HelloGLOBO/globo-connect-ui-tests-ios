@@ -12,10 +12,8 @@ import ScheduledCallAppPage from "../pages/app/ScheduledCallAppPage";
 
 type TestFixtures = {
     iosDriver: Browser;
-
     loginPage: LoginPage;
     dashboardPage: LinguistDashboardPage;
-
     appLoginPage: LoginAppPage;
     companyDashboardPage: CompanyDashboardPage;
     intakePage: IntakePage;

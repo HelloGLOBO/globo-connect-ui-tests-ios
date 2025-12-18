@@ -22,7 +22,6 @@ class LinguistDashboardPage extends BaseWebPage {
 
     async toggleStatus(): Promise<void> {
         await this.click(this.statusSwitch);
-        // await expect(this.confirmModalButton).toBeVisible();
         await this.click(this.confirmModalButton);
     }
 
