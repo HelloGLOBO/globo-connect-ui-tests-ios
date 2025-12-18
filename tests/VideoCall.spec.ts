@@ -1,8 +1,8 @@
 import { test } from "../helpers/fixtures";
 import { userData, dashboards } from "../data/testData";
 
-test.describe("Login Tests", () => {
-    test("Initiate a video call from app", async ({
+test.describe("Video call with an interpreter", () => {
+    test("OVCE-T84 - Initiate a video call from app", async ({
         page,
         loginPage,
         dashboardPage,
@@ -30,7 +30,6 @@ test.describe("Login Tests", () => {
         await intakePage.clickNext();
         await intakePage.clickStartCall();
         await videoCallPage.clickStartCall();
-        // await page.waitForTimeout(5000);
         await dashboardPage.answerCall();
         await page.waitForTimeout(5000); // Wait 5 seconds to ensure call has a duration
         await videoCallPage.verifyInCall();

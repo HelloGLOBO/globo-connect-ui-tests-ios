@@ -2,7 +2,7 @@ import { test } from "../helpers/fixtures";
 import { userData, dashboards, callsInformation } from "../data/testData";
 
 test.describe("Join a Scheduled Call", () => {
-    test("Not yet started Scheduled Call", async ({
+    test("OVCE-T54 - Not yet started Scheduled Call", async ({
         loginPage,
         dashboardPage,
         appLoginPage,
@@ -27,7 +27,7 @@ test.describe("Join a Scheduled Call", () => {
         await scheduledCallAppPage.clickJoinScheduledCall();
     });
 
-    test("Started Scheduled Call", async ({
+    test("OVCE-T46 - Started Scheduled Call", async ({
         loginPage,
         dashboardPage,
         appLoginPage,
