@@ -30,10 +30,9 @@ test.describe("Login Tests", () => {
         await intakePage.clickNext();
         await intakePage.clickStartCall();
         await videoCallPage.clickStartCall();
-        await page.waitForTimeout(5000);
-
+        // await page.waitForTimeout(5000);
         await dashboardPage.answerCall();
-        await page.waitForTimeout(5000);
+        await page.waitForTimeout(5000); // Wait 5 seconds to ensure call has a duration
         await videoCallPage.verifyInCall();
         await videoCallPage.clickEndCall();
         await videoCallPage.leaveCall();

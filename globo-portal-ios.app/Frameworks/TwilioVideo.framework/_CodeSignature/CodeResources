@@ -6,11 +6,23 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		xVugVVrEO9SA8hemslld2i4NnO8=
+		Lh1dN9dPcJJZVJzmEu4h2kqTN/0=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		YQK08x80kJUMNaphn6RGiEgZSYw=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TzMU/HPptjKGAu16lfVb0zygh0ahcxxOopW7vmzyAos=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>
