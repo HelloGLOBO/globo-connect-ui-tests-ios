@@ -21,6 +21,10 @@
 	<dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			0A2EiQgRzSWwi8z1NLvVgmgDFUI=
+			</data>
 			<key>hash2</key>
 			<data>
 			Zqja2mvxxRaVKuogRDzUbVyYJTqwVhC7Hb4TTTioO1g=
@@ -28,6 +32,10 @@
 		</dict>
 		<key>remove_archs</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			hWFTH6Xhs1VsyKCmHBzIp0xtXaE=
+			</data>
 			<key>hash2</key>
 			<data>
 			OXzikzUDaEcnkDkiBNCDBe4v/p0YZrmfgNQLo+JK+Ys=

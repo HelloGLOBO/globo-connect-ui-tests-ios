@@ -293,7 +293,9 @@ npm run test:ui
 ```
 appium-framework/
 ├── data/                    # Test data files
-├── helpers/                 # Helper utilities (AppiumSetup, etc.)
+├── helpers/                 # Helper utilities
+│   ├── AppiumSetup.ts      # Appium driver configuration
+│   └── fixtures.ts         # Playwright fixtures with page objects
 ├── locators/               # Element locators
 │   ├── app/               # Mobile app locators
 │   └── web/               # Web locators
@@ -304,6 +306,88 @@ appium-framework/
 ├── globo-portal-ios.app/  # iOS application bundle
 ├── playwright.config.ts    # Playwright configuration
 └── package.json           # Project dependencies
+```
+
+## Test Architecture
+
+### Fixtures Pattern
+
+This framework uses Playwright's fixtures pattern for dependency injection and automatic lifecycle management. All page objects and the iOS driver are provided as fixtures.
+
+**Benefits:**
+
+-   Automatic setup and teardown of resources
+-   Clean test code without manual instantiation
+-   Type-safe dependency injection
+-   Better test isolation
+
+### Using Fixtures in Tests
+
+```typescript
+import { test, expect } from "../helpers/fixtures";
+import { userData, dashboards } from "../data/testData";
+
+test.describe("Your Test Suite", () => {
+    test("Your test case", async ({
+        page, // Playwright page (built-in)
+        loginPage, // Web page objects
+        dashboardPage,
+        appLoginPage, // App page objects
+        companyDashboardPage,
+        intakePage,
+        videoCallPage,
+        feedbackPage,
+    }) => {
+        // Use page objects directly - no instantiation needed
+        await loginPage.navigateTo("/");
+        await loginPage.performLogin(email, password);
+
+        // iOS driver is automatically managed
+        await appLoginPage.performLogin(email, password);
+    });
+});
+```
+
+### Available Fixtures
+
+**Web Page Objects** (using Playwright `page`):
+
+-   `loginPage` - Login page interactions
+-   `dashboardPage` - Linguist dashboard page
+
+**App Page Objects** (using Appium `iosDriver`):
+
+-   `appLoginPage` - App login page
+-   `companyDashboardPage` - Company dashboard
+-   `intakePage` - Intake form page
+-   `videoCallPage` - Video call page
+-   `feedbackPage` - Feedback page
+
+**Driver:**
+
+-   `iosDriver` - Appium iOS driver (automatically initialized and cleaned up)
+
+### Creating Custom Fixtures
+
+To add new page objects to fixtures, edit `helpers/fixtures.ts`:
+
+```typescript
+// 1. Import your page object
+import YourNewPage from "../pages/app/YourNewPage";
+
+// 2. Add to TestFixtures type
+type TestFixtures = {
+    // ... existing fixtures
+    yourNewPage: YourNewPage;
+};
+
+// 3. Add fixture definition
+export const test = base.extend<TestFixtures>({
+    // ... existing fixtures
+    yourNewPage: async ({ iosDriver }, use) => {
+        await use(new YourNewPage(iosDriver));
+    },
+});
 ```
 
 ## Troubleshooting

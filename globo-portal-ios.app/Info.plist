@@ -75,7 +75,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>175</string>
+	<string>184</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -115,12 +115,16 @@
 	<string>Used for Video Chat</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Used for Video and Audio Calls</string>
+	<key>NSPrivacyTrackingDomains</key>
+	<array>
+		<string>eventgw.twilio.com</string>
+	</array>
 	<key>Push</key>
 	<string></string>
 	<key>REPO_CODE</key>
-	<string>1515</string>
+	<string>1617</string>
 	<key>REPO_REVISION</key>
-	<string>eb76e751</string>
+	<string>c6020e3d</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Montserrat-Italic.ttf</string>

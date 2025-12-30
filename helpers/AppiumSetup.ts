@@ -7,6 +7,7 @@ interface IOSCapabilities {
     "appium:app": string;
     "appium:deviceName": string;
     "appium:use_prebuilt_wda": boolean;
+    "appium:autoAcceptAlerts": boolean;
 }
 
 class AppiumSetup {
@@ -20,6 +21,7 @@ class AppiumSetup {
             "appium:app": appPath,
             "appium:deviceName": "iPad (A16)",
             "appium:use_prebuilt_wda": true,
+            "appium:autoAcceptAlerts": true,
         };
 
         try {

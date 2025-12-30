@@ -13,6 +13,10 @@ export interface Dashboards {
     interpreter_dashboard: string;
 }
 
+export interface CallsInformation {
+    scheduledCallJoinCode: string;
+}
+
 export const userData: TestData = {
     INTERPRETER: {
         id: "interpreter1",
@@ -28,4 +32,10 @@ export const userData: TestData = {
 
 export const dashboards: Dashboards = {
     interpreter_dashboard: "/linguist_dashboard/index",
+};
+
+export const callsInformation = {
+    notStartedScheduledCallJoinCode: "327743582",
+    startedScheduledCallJoinCode: "572673085",
+    participantCode: "825",
 };

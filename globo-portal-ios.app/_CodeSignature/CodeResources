@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		xBvPJVdaoR6J94j63IhWR8PKB7s=
+		NhNwvDw/q5KN/pd97Vf13lqQcX8=
 		</data>
 		<key>BaseConfig.xcconfig</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		/QP4FcudK3s6hF2iy7rpX4646P8=
+		8apRKw6Ta0nLC4FdaaseS7EAeug=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/Auth0.framework/Auth0</key>
 		<data>
-		JqY38FJ90YYkQBHIFQJxDFOv0G8=
+		zDq81T5PyrKjCWJ79CkxwbEmP9o=
 		</data>
 		<key>Frameworks/Auth0.framework/Auth0.bundle/Info.plist</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>Frameworks/GAIISDK.framework/GAIISDK</key>
 		<data>
-		LxxFO0EjvsVFU6atU/lxpN91D/c=
+		RcblKPbivfsirNuVlogsmY/XYHE=
 		</data>
 		<key>Frameworks/GAIISDK.framework/Info.plist</key>
 		<data>
@@ -186,7 +186,7 @@
 		</data>
 		<key>Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift</key>
 		<data>
-		UiywRthOpRIMpVxJemhohFE6/n4=
+		4f5I0yu72rtkCQFNiLCZIoJUOBc=
 		</data>
 		<key>Frameworks/IQKeyboardManagerSwift.framework/Info.plist</key>
 		<data>
@@ -206,7 +206,7 @@
 		</data>
 		<key>Frameworks/Iconic.framework/Iconic</key>
 		<data>
-		MtVTwvdlxdvHeGbcmRDjyxjxMzk=
+		mzpthLldUcDnbDB9GUV+iJLZ4KI=
 		</data>
 		<key>Frameworks/Iconic.framework/Info.plist</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>Frameworks/JWTDecode.framework/JWTDecode</key>
 		<data>
-		FS2Z1YrbPHGA3JnwAOya4hXY0cA=
+		N9ftIFVvsL+qpl2M4h5N+5zvWU8=
 		</data>
 		<key>Frameworks/JWTDecode.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -279,7 +279,7 @@
 		</dict>
 		<key>Frameworks/MaterialComponents.framework/MaterialComponents</key>
 		<data>
-		6oUcNbPBkNgOniyq+ItMevrz3yo=
+		/FeAaC/4MP4qJ3WCCH5znWzPbpM=
 		</data>
 		<key>Frameworks/MaterialComponents.framework/MaterialDialogs.bundle/Resources/en.lproj/MaterialDialogs.strings</key>
 		<dict>
@@ -292,7 +292,7 @@
 		</dict>
 		<key>Frameworks/MaterialComponents.framework/MaterialIcons_ic_check_circle.bundle/Assets.car</key>
 		<data>
-		6aMi8viZbYUcMqkCCSL7ZZ7Lgko=
+		Kg4I741adDK1AVOAgNSyZ/MX6Mk=
 		</data>
 		<key>Frameworks/MaterialComponents.framework/MaterialIcons_ic_check_circle.bundle/Info.plist</key>
 		<data>
@@ -309,7 +309,7 @@
 		</dict>
 		<key>Frameworks/MaterialComponents.framework/_CodeSignature/CodeResources</key>
 		<data>
-		YE96Gx1lcZGT7ExyEBrreurtlX0=
+		KXasHf1a7vMoqWCTjlqCiHkebBs=
 		</data>
 		<key>Frameworks/MotionAnimator.framework/Info.plist</key>
 		<data>
@@ -349,11 +349,11 @@
 		</data>
 		<key>Frameworks/NewRelic.framework/Info.plist</key>
 		<data>
-		YD0KlQezTLX3x0RN1A03lIl41II=
+		5H+qn10m+LLYIaAmIirRMBOfTgo=
 		</data>
 		<key>Frameworks/NewRelic.framework/NewRelic</key>
 		<data>
-		3ra4DGn9IlArXvDnI5AVN11ylxo=
+		bh1NyMKREW8ZXiC558s1g/0EoXQ=
 		</data>
 		<key>Frameworks/NewRelic.framework/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -361,7 +361,7 @@
 		</data>
 		<key>Frameworks/NewRelic.framework/_CodeSignature/CodeResources</key>
 		<data>
-		5fn2RwQ+NvafXQUEpScwfv2MYe0=
+		tsxGgsoce/TZoRCB2mylt3GBijU=
 		</data>
 		<key>Frameworks/ObjectMapper.framework/Info.plist</key>
 		<data>
@@ -369,7 +369,7 @@
 		</data>
 		<key>Frameworks/ObjectMapper.framework/ObjectMapper</key>
 		<data>
-		pEI6jxspv3BPW8FgCWA1ieij2ls=
+		jTtUUlBbHE+JIGBfTNmSkPZb2/o=
 		</data>
 		<key>Frameworks/ObjectMapper.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -393,7 +393,7 @@
 		</data>
 		<key>Frameworks/SideMenu.framework/SideMenu</key>
 		<data>
-		uMqhvQp9nqfv1NIQYmpDYLzfCx4=
+		0PGhXRHT0TyXNVddiLj0Jldk8uc=
 		</data>
 		<key>Frameworks/SideMenu.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -894,7 +894,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I2vbNUZlAoHky0Wvrk61K5QFoS4=
+			UiRVuDubdbWeGZxavaI5UsSLnLs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -953,11 +953,11 @@
 		</data>
 		<key>Frameworks/SwiftyPickerPopover.framework/SwiftyPickerPopover</key>
 		<data>
-		Y30om7ro38MXrvY6YVAx20XDKd0=
+		CXmn49BUzLgiDFeIiFowFzNsx8o=
 		</data>
 		<key>Frameworks/SwiftyPickerPopover.framework/_CodeSignature/CodeResources</key>
 		<data>
-		GIEhgff7X53VpuUYf2MoQ8wTnJM=
+		q5tOy5txIp0ZGnfqSve4XamqNDs=
 		</data>
 		<key>Frameworks/SwiftyPickerPopover.framework/ja.lproj/CountdownPickerPopover.strings</key>
 		<dict>
@@ -1000,15 +1000,19 @@
 		</data>
 		<key>Frameworks/TwilioVideo.framework/Info.plist</key>
 		<data>
-		xVugVVrEO9SA8hemslld2i4NnO8=
+		Lh1dN9dPcJJZVJzmEu4h2kqTN/0=
+		</data>
+		<key>Frameworks/TwilioVideo.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		YQK08x80kJUMNaphn6RGiEgZSYw=
 		</data>
 		<key>Frameworks/TwilioVideo.framework/TwilioVideo</key>
 		<data>
-		4p1N0IQQHxLKuIzmdVtdTjeEI+A=
+		vCngwtqraOV+L768X+qRaZlwYg4=
 		</data>
 		<key>Frameworks/TwilioVideo.framework/_CodeSignature/CodeResources</key>
 		<data>
-		kXfJ2ILzM4Y+xHaY6VTBYk2gDCs=
+		ZIvRapILj5d1hfI1SvvdfjWJBHw=
 		</data>
 		<key>Frameworks/TwilioVoice.framework/Info.plist</key>
 		<data>
@@ -1020,11 +1024,11 @@
 		</data>
 		<key>Frameworks/TwilioVoice.framework/TwilioVoice</key>
 		<data>
-		a0WvoHkWweR5u7QmFvmZtl3hRJc=
+		Ybw+w4xQrFw18YmCStU9M4SJ3R4=
 		</data>
 		<key>Frameworks/TwilioVoice.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Cwnv0YZ382mw7D7TlBrVcMKUZtU=
+		4Ki65uj4Vw4P7F70mol4iWGJceE=
 		</data>
 		<key>Frameworks/TwilioVoice.framework/remove_archs</key>
 		<data>
@@ -1036,7 +1040,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RkyLPDptc1JW8hvLkMxo4aQyTfM=
+		ivyukpUGtffiqV007tFivwl4UD0=
 		</data>
 		<key>LICENSE.md</key>
 		<data>
@@ -1624,11 +1628,11 @@
 		</data>
 		<key>Main.storyboardc/kM4-Tv-GBm-view-CaF-ci-Scn.nib/objects-14.0+.nib</key>
 		<data>
-		1gutaFfFKQkH1/d4logUIWcEIOQ=
+		UKj4dHVo5YaZ8RxRpKtTMGM/84I=
 		</data>
 		<key>Main.storyboardc/kM4-Tv-GBm-view-CaF-ci-Scn.nib/runtime.nib</key>
 		<data>
-		1AjpWpiK7F5riSBm0V6kW1vb8tI=
+		0lOueo0+TKUzBOYo9SfR8bdhtdQ=
 		</data>
 		<key>Main.storyboardc/lw3-gL-QPb-view-6js-YT-KZ6.nib/objects-14.0+.nib</key>
 		<data>
@@ -1742,13 +1746,17 @@
 		<data>
 		gVl236uObBJm/kuLiZmfSYsaEKI=
 		</data>
-		<key>en_us_female_precession.mp3</key>
+		<key>en_us_female_pre_session.mp3</key>
 		<data>
 		AVv68HcB+ZNCtd8qkYZ1ubQGfKg=
 		</data>
-		<key>es_us_female_precession.mp3</key>
+		<key>es_us_female_pre_session.mp3</key>
 		<data>
 		glWn+eZd9xgjKjeS8ebBoPJ9J1c=
+		</data>
+		<key>force_interjection.json</key>
+		<data>
+		cF7Fchj81QQgkzcB6qVkj65FKBE=
 		</data>
 		<key>globo-portal-ios-prod.entitlements</key>
 		<data>
@@ -1756,7 +1764,7 @@
 		</data>
 		<key>globo-portal-ios.debug.dylib</key>
 		<data>
-		aVN/dyRNUapTvRR6qEu6tEbucl8=
+		EjD9a0oL61Myl1AA4GCxeyBCugg=
 		</data>
 		<key>hold-music.mp3</key>
 		<data>
@@ -1827,7 +1835,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dRw6Mtr9wjL4u4oxcTyb9sU1ljkcwO/OdLOyU+UhLnk=
+			rW8lTyqXXtJVluayRCyde0hK6pXc1FewK8papwg2yC0=
 			</data>
 		</dict>
 		<key>BaseConfig.xcconfig</key>
@@ -1890,7 +1898,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9P88P4r3BTTTd5V98ipFPRphU/dLU+1j87kQI0iRb+0=
+			ypEMgQPlGcOo2D/C7RX1bdeBNA49yg0GrNKT09AGSeQ=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
@@ -1995,7 +2003,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T4Pniq2rSKMUuFswyAwUT4e3Fn5bNydulLSVeeDLJho=
+			m8b6IRutjsml25+hTq0k+Iz4F7UNLkNfdRNavrvxPBg=
 			</data>
 		</dict>
 		<key>Frameworks/Auth0.framework/Auth0.bundle/Info.plist</key>
@@ -2107,7 +2115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gYdBfsS/Te84hmc0jqixwnWRroFRfhJGSFgnujbGWCY=
+			7DpXuOXY5dDBMNL8QKZZ4uSTYg1pOLAY5EGhUBSSm7k=
 			</data>
 		</dict>
 		<key>Frameworks/GAIISDK.framework/Info.plist</key>
@@ -2128,7 +2136,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PHMp+60v7nTHYlACyJBVIOhygjDKqromedIuwsgxsAU=
+			nRab6MEYGNZ7SQSI5EutMFiyNZlgrfI+DK/dclAjtPw=
 			</data>
 		</dict>
 		<key>Frameworks/IQKeyboardManagerSwift.framework/Info.plist</key>
@@ -2163,7 +2171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wdDJ3C2Mbcpg26ylanU78BjEzKD/H4CNSqJU9Fwljvs=
+			3FYawle0R7P7u2b/sjSTrNIVPod5Qb59cCq2aYKNlAo=
 			</data>
 		</dict>
 		<key>Frameworks/Iconic.framework/Info.plist</key>
@@ -2191,7 +2199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vug5u5t5ODODfTPqt2JmjuEmp5B10FA4xMQACeZ77tk=
+			qKAvPrSHfaRT3nDpj8gj3HlLJ2o22AllA/Rg8eMWJx4=
 			</data>
 		</dict>
 		<key>Frameworks/JWTDecode.framework/_CodeSignature/CodeResources</key>
@@ -2284,7 +2292,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tiqyyTWFUTWEv98u0RX4wkYj93PuC9WUs/ByhbOM2fU=
+			0HraMJrK/+DYql1y0nOAPDm8oCwlGC+wXVr/t55gYq4=
 			</data>
 		</dict>
 		<key>Frameworks/MaterialComponents.framework/MaterialDialogs.bundle/Resources/en.lproj/MaterialDialogs.strings</key>
@@ -2300,7 +2308,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k5kwsHDTXLcx70nV8K4whphEtONilQGw1BrpLE4lIjI=
+			hsEcVGOdfKyTbh00baCS9OtVyKXqKHcSc6OwTvflAJM=
 			</data>
 		</dict>
 		<key>Frameworks/MaterialComponents.framework/MaterialIcons_ic_check_circle.bundle/Info.plist</key>
@@ -2323,7 +2331,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			803kMPQBioZELMk+yPiHjO9J6N0RIugVile4DvtwQLk=
+			pev+50ataozah5omVgaG4X3ExKu4FVXmr/zOyVU+XWw=
 			</data>
 		</dict>
 		<key>Frameworks/MotionAnimator.framework/Info.plist</key>
@@ -2393,14 +2401,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c2neqXbr3QL9P0H7rtbujZV1mGg2swFUjzBnyIhSASA=
+			1mUFA7RjQmqLB4cTuV5jmOYmthbKtbW8aFcJrSgYomw=
 			</data>
 		</dict>
 		<key>Frameworks/NewRelic.framework/NewRelic</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			laHM3VvLjwtq5ZEho2otZCm1fwxNZ5kvhqS1T78hWl4=
+			tekexmOPXB4AG8aL5yp65n0e8fPGp//4UB0V8oHY9C8=
 			</data>
 		</dict>
 		<key>Frameworks/NewRelic.framework/PrivacyInfo.xcprivacy</key>
@@ -2414,7 +2422,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HREKLh0HYd/6uEnqsOfr2Ry+kQK+A9J+ZswUQkbSlgg=
+			xL2bMu7Cmy5xv0H8yqdCf7GoIG3CkJgbnF+9cHNhO60=
 			</data>
 		</dict>
 		<key>Frameworks/ObjectMapper.framework/Info.plist</key>
@@ -2428,7 +2436,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2MIzD3wHw3Jz63WN8Efdvrda/ClmxGtwRcNVMRd6BZQ=
+			xXyqWE+85w3GLG8kU2ZghwanQSKgIjtEtIXYpbCsyBY=
 			</data>
 		</dict>
 		<key>Frameworks/ObjectMapper.framework/_CodeSignature/CodeResources</key>
@@ -2470,7 +2478,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hCmqB3EEQXYlJVeAr1E0StPBM1Wd93EYeHGbReIuGHg=
+			nR3V4iakDBfIieneT2U0wriyaWEtnzDe6ivUcqIzsnk=
 			</data>
 		</dict>
 		<key>Frameworks/SideMenu.framework/_CodeSignature/CodeResources</key>
@@ -3026,7 +3034,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wt/LzNzGKdmmvjNnj1cL+7IKVv6sI8oudMGrgB5qsl4=
+			DwysVuRQjd0CVIAXqONHdJ0i6ZrlnxaFPnZNWEfl2II=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3099,14 +3107,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ugjQJGUefAjTbGdl4gX6Bat7MCNQFm1HMt18L7cJ5Bw=
+			w7YNs05zbpFVSUH91O65E7PVk68BfZAM749dVWb9hiA=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftyPickerPopover.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9zF3XbKvk6FcmaJ9J61qfNWBqVNKYsjRlHpk7sOP1Ew=
+			IuKYURzpMSOuBAS1rQtGokuy8+vNE0+/UdHAa0ijPJ4=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftyPickerPopover.framework/ja.lproj/CountdownPickerPopover.strings</key>
@@ -3161,21 +3169,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MHPphzCXJK4+vRpDjdDlUFb5pwRdwAPBMpjE9JkuQys=
+			PafMdHKO0m9kB2HwGUYBijVyh2Cy0XnEFqBdrbi23TQ=
+			</data>
+		</dict>
+		<key>Frameworks/TwilioVideo.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TzMU/HPptjKGAu16lfVb0zygh0ahcxxOopW7vmzyAos=
 			</data>
 		</dict>
 		<key>Frameworks/TwilioVideo.framework/TwilioVideo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nGUThQSO7eTiN2E+Es1sWq4ehiiOlaMvnsv5KgTFJR4=
+			sjCxjeyuMMlxrpxGGYdj9yDIzUbYmpgnJ9UshTXt6+Y=
 			</data>
 		</dict>
 		<key>Frameworks/TwilioVideo.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i48AswBdq4oerzvGy3yiOurYRnxO+FTel9vYN03ZrLo=
+			1VhIH0mjHnfi1qh2NS4/iHhnN1qVd6dK/cybI8seM2o=
 			</data>
 		</dict>
 		<key>Frameworks/TwilioVoice.framework/Info.plist</key>
@@ -3196,14 +3211,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GrsvqAJ7dsp2hwUbrZAUfUTmp0Gmkg/QJhWkWGLoc2U=
+			K2c9DRwMvHzWl4vsL3xcQuPvsl72hmZfP2vRR0BEi0g=
 			</data>
 		</dict>
 		<key>Frameworks/TwilioVoice.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+8Jv7aFad8ic3kP8KS+JYcDI5xc9Okmf2Z+Uhf4b52k=
+			yhOpnTjTgCVj1VwN+bdwHHZLycW8Ml382Vq/rmdqh64=
 			</data>
 		</dict>
 		<key>Frameworks/TwilioVoice.framework/remove_archs</key>
@@ -4246,14 +4261,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qpSXttiby55CbfOOITb3n9yE4N4bgvVdW5ihNjPICOs=
+			wH0WdqlJBsJmgY1RYmojwPc5TfaGM5uFMkuOcy9wtL8=
 			</data>
 		</dict>
 		<key>Main.storyboardc/kM4-Tv-GBm-view-CaF-ci-Scn.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lanWsjP7uUCwv1tp8BgO8Yf7ruMAQG9mZ2r4GemRfqc=
+			bUCaU/3W7V5UTus2cDE+hLwTIhDrP7DQ0n1rjLNVxi4=
 			</data>
 		</dict>
 		<key>Main.storyboardc/lw3-gL-QPb-view-6js-YT-KZ6.nib/objects-14.0+.nib</key>
@@ -4445,18 +4460,25 @@
 			Gn/DYFr9V7cznOWlrvyeosdOEqXhtrmzWNSe+YenPt0=
 			</data>
 		</dict>
-		<key>en_us_female_precession.mp3</key>
+		<key>en_us_female_pre_session.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			xfBmErrGA/oI7FF0i49ZWX2jGiCASguyMFsyo2m+xzM=
 			</data>
 		</dict>
-		<key>es_us_female_precession.mp3</key>
+		<key>es_us_female_pre_session.mp3</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			ZCmuhRP3oc30rYktxFvxTxVVou4Gu/04cBOqx6+/pWc=
+			</data>
+		</dict>
+		<key>force_interjection.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bHR63dkyIXbuMZxZgHb5025ZJH4QZz5Xh7K7jR62ttc=
 			</data>
 		</dict>
 		<key>globo-portal-ios-prod.entitlements</key>
@@ -4470,7 +4492,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OooOVELcfYIskw5GIGVbfw0O6Yt4phAKdxg8iueaLGc=
+			G42Qlr382lhuBEMtzU/N3vNtwY4721hxFlYldrnXSXM=
 			</data>
 		</dict>
 		<key>hold-music.mp3</key>
